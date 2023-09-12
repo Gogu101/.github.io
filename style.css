@@ -16,11 +16,41 @@ ul {
 
 body 
 {
-    background-color:#949396 ;
+    background-color:#2B272B ;
 }
 div
 {
-    background-color: #C799A6;
+    background-color: #2d2b3c;
     padding: 5px;
+}
+#navbar {font-size: 20px;}
+
+#navbar {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+  display: flex; 
+}
+
+
+#navbar li {
+  margin: 0 10px; 
+  display: inline;
+}
+
+
+#navbar li a {
+  display: inline-block;
+  padding: 10px 20px; 
+  background-color: #ff0000; 
+  color: #fff; 
+  text-decoration: none;
+  border-radius: 5px; 
+}
+#navbar li a.active {
+  background-color: #B50000; }
+ #navbar li a:hover:not(.active) {
+    background-color: #610000;
+    color: white;
 }
 
