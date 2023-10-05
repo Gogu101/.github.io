@@ -4,6 +4,7 @@ h1
     text-align: center;
     
 }
+
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ff0000;
@@ -24,6 +25,7 @@ body
 {
     background-color:#2B272B ;
 }
+
 div
 {
     background-color: #2d2b3c;
@@ -39,7 +41,6 @@ div
   display: flex; 
 }
 
-
 #navbar li {
   margin: 0 10px; 
   display: inline;
@@ -54,6 +55,7 @@ div
   text-decoration: none;
   border-radius: 5px; 
 }
+
 #navbar li a.active {
   background-color: #B50000; }
  #navbar li a:hover:not(.active) {
@@ -86,7 +88,9 @@ div
   border-radius: 5px; 
 }
 #aside li a.active {
-  background-color: #B50000; }
+  background-color: #B50000; 
+}
+
  #aside li a:hover:not(.active) {
     background-color: #610000;
     color: white;
