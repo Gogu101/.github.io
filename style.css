@@ -1,24 +1,24 @@
 h1 
 {
-    color: rgb(219, 89, 89);
+    color: #008ECB;
     text-align: center;
     
 }
 
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #ff0000;
+    color: #008ECB;
     background-image: url("download.png");
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    color: #ff0000;
+    color: #008ECB;
   }
 
 ul a {
-  color: #B50000 ;
+  color:#008ECB;
 }
 
 body 
@@ -30,7 +30,7 @@ div
 {
     background-color: #2d2b3c;
     padding: 5px;
-    color: #ff0000;
+    color: #008ECB;
 }
 #navbar {font-size: 20px;}
 
@@ -50,14 +50,14 @@ div
 #navbar li a {
   display: inline-block;
   padding: 10px 20px; 
-  background-color: #ff0000; 
+  background-color: #301934; 
   color: #fff; 
   text-decoration: none;
   border-radius: 5px; 
 }
 
 #navbar li a.active {
-  background-color: #B50000; }
+  background-color: #800080; }
  #navbar li a:hover:not(.active) {
     background-color: #610000;
     color: white;
@@ -82,16 +82,46 @@ div
 #aside li a {
   display: inline-block;
   padding: 10px 20px; 
-  background-color: #ff0000; 
+  background-color: #301934; 
   color: #fff; 
   text-decoration: none;
   border-radius: 5px; 
 }
 #aside li a.active {
-  background-color: #B50000; 
+  background-color: #800080; 
 }
 
  #aside li a:hover:not(.active) {
     background-color: #610000;
     color: white;
+}
+details {
+  user-select: none;
+}
+
+details>summary span.icon {
+  width: 24px;
+  height: 40px;
+  transition: all 0.3s;
+  margin-left: auto;
+}
+
+details[open] summary span.icon {
+  transform: rotate(180deg);
+}
+
+summary {
+  display: flex;
+  cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+.box {
+  border: 2px solid #333; /* Add a border */
+  padding: 15px; /* Add some padding for space inside the box */
+  margin: 10px; /* Add margin to space out the boxes */
+  background-color: #f5f5f5; /* Background color */
 }
