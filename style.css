@@ -28,7 +28,7 @@ body
 
 div
 {
-    background-color: #2d2b3c;
+    background-color: yellow;
     padding: 5px;
     color: #008ECB;
 }
@@ -50,16 +50,16 @@ div
 #navbar li a {
   display: inline-block;
   padding: 10px 20px; 
-  background-color: #301934; 
+  background-color: yellow; 
   color: #fff; 
   text-decoration: none;
   border-radius: 5px; 
 }
 
 #navbar li a.active {
-  background-color: #800080; }
+  background-color: yellow; }
  #navbar li a:hover:not(.active) {
-    background-color: #610000;
+    background-color: yellow;
     color: white;
 }
 
